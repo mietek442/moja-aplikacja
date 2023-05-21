@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.about {
+  margin-top: 40px;
+  font-family: "Arvo", serif;
+  font-size: 3.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10vw;
+  width: auto;
+
+  text-align: left;
+}
+
+.MainAbout {
+  background-color: rgb(247, 246, 244);
+
+  position: absolute;
+  margin-top: 0px;
+  z-index: -5;
+  left: 0;
+  right: 0;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Paralax-hole {
+  width: auto;
+  height: auto;
+
+  z-index: -520;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  background-color: rgb(0, 0, 0);
+}
+.hole {
+  width: 100%;
+  z-index: 20;
+}
+.inhole {
+  width: 40%;
+  position: absolute;
+  right: 5vw;
+  top: 15%;
+  z-index: -1;
+}
+.tekst-about {
+  margin-top: 60vw;
+  z-index: 20;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: auto;
+}
+.title-about {
+  font-weight: 500;
+  color: rgb(107, 107, 107);
+
+  font-size: 1.5rem;
+
+  text-align: left;
+
+  font-family: "Work Sans", sans-serif;
+}
+.menu-about-text {
+  font-size: 1.5rem;
+
+  text-align: left;
+  margin-top: 5vh;
+  color: rgb(107, 107, 107);
+  font-family: "Work Sans", sans-serif;
+}
+@media (max-width: 700px) {
+  .Paralax-hole {
+    width: 99%;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .tekst-about {
+    margin-top: 70vw;
+    width: 90%;
+  }
+  .tekst-about {
+    margin-top: 70vw;
+    width: 90%;
+  }
+  .about {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
